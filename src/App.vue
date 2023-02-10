@@ -1,4 +1,16 @@
 <template>
+
+  <div class="mainblock">
+    <div class="ticket">
+      <MainPage/>
+    </div>
+    <div class="app">
+      <PhotoCarousel/> 
+    </div>
+  </div>
+  <div class="logotype">
+    <img src="../src/assets/logotype.png" class="unselectable" draggable="false"/>
+  </div>
   <div class="header">
     <div class="elements">
       <div class="element">
@@ -17,17 +29,6 @@
         +7 (905) 953-90-93
       </div>
     </div>
-  </div>
-  <div class="mainblock">
-    <div class="ticket">
-      <MainPage/>
-    </div>
-    <div class="app">
-      <PhotoCarousel/> 
-    </div>
-  </div>
-  <div class="logotype">
-    <img src="../src/assets/logotype.png" class="unselectable" draggable="false"/>
   </div>  
   
 </template>

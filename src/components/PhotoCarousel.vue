@@ -1,13 +1,31 @@
 <template>
-    <Carousel>
+    <Carousel :autoplay="2000" :wrap-around="true">
     <Slide :key="slide">
-      <img src="../assets/image1.png" class="unselectable" draggable="false">
+      <img src="../assets/image1.jpg" class="unselectable" draggable="false">
     </Slide>
     <Slide :key="slide">
       <img src="../assets/image2.jpg" class="unselectable" draggable="false">
     </Slide>
     <Slide :key="slide">
       <img src="../assets/image3.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image4.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image5.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image6.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image7.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image8.jpg" class="unselectable" draggable="false">
+    </Slide>
+    <Slide :key="slide">
+      <img src="../assets/image9.jpg" class="unselectable" draggable="false">
     </Slide>
      <template #addons>
       <Navigation />
