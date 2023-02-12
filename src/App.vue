@@ -103,7 +103,7 @@ body {
   display: inline-block;
 }
 .ticket {
-  margin: 0 5% 0 5%;
+  margin: auto 5%;
   width: 50%;
   z-index: 1;
 }
